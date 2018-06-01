@@ -20,7 +20,19 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+pwd: show current directory path
+mkdir <name(s)>: create a directory
+rmdir <name(s)>: delete a directory
+touch <name(s)>: create a file (http://www.linfo.org/touch.html)
+rm <name(s)>: delete a file
+mv -i <oldname> <newname>: move a file
+ls -a (all files), or ls -ld .*? (only hidden): output hidden files
+cp -i <file> <newpath/newfile>: copy a file
+cd <dir>: change current directory
+cat <name>: output text file 
+
+
+
 
 ---
 
@@ -35,7 +47,15 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+ls: output the contents of the current directory (except hidden)
+ls -a: all files (including hidden)
+ls -l: long version (with permissions, number of children directories, file owner, owner group, last modified)
+ls -lh: long with file size
+ls -lah: all files, long, with file size 
+ls -t: sort by time/date
+ls -Glp: uses colors to highlight (-G) long file types (-l), and sticks a '/' at the end of directories (-p) 
+
+
 
 ---
 
@@ -43,7 +63,8 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+
+ls -R: Because it was hilarious when I used it on my root 
 
 ---
 
