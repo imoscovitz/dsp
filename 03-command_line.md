@@ -63,7 +63,10 @@ ls -Glp: uses colors to highlight (-G) long file types (-l), and sticks a '/' at
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-
+ls -p: Really useful to distinguish directories  
+ls -d: I imagine this could come in handy when trying to navigate using cd  
+ls -r  
+ls -u  
 ls -R: Because it was hilarious when I used it on my root 
 
 ---
@@ -74,7 +77,7 @@ What does `xargs` do? Give an example of how to use it.
 
 xargs allows you to pipe standard input even to procedures (including rm, mkdir) that can't normally take stdin by converting them the stdin(s) into arguement(s). Moreover, some procedures can only accept a limited number of arguments; xargs applies the procedure to all the arguments you give it.
 
-find /Users/ilanmoscovitz/documents | xargs rm
+find /Users/ilanmoscovitz/documents | xargs rm  
 shred each of my documents
 
  
