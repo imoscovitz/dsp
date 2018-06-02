@@ -39,7 +39,7 @@ cat <name>: output text file
 ### Q2.  List Files in Unix   
 
 What do the following commands do:  
-`ls`  
+`ls`
 `ls -a`  
 `ls -l`  
 `ls -lh`  
@@ -72,7 +72,10 @@ ls -R: Because it was hilarious when I used it on my root
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+xargs allows you to pipe standard input even to procedures (including rm, mkdir) that can't normally take stdin by converting them the stdin(s) into arguement(s). Moreover, some procedures can only accept a limited number of arguments; xargs applies the procedure to all the arguments you give it.
+
+find /Users/ilanmoscovitz/documents | xargs rm
+shred each of my documents
 
  
 
