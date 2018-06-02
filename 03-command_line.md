@@ -47,12 +47,12 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-ls: output the contents of the current directory (except hidden)
-ls -a: all files (including hidden)
-ls -l: long version (with permissions, number of children directories, file owner, owner group, last modified)
-ls -lh: long with file size
-ls -lah: all files, long, with file size 
-ls -t: sort by time/date
+ls: output the contents of the current directory (except hidden)  
+ls -a: all files (including hidden)  
+ls -l: long version (with permissions, number of children directories, file owner, owner group, last modified)  
+ls -lh: long with file size  
+ls -lah: all files, long, with file size  
+ls -t: sort by time/date  
 ls -Glp: uses colors to highlight (-G) long file types (-l), and sticks a '/' at the end of directories (-p) 
 
 
