@@ -3,4 +3,4 @@
 ch3_image.png
 
 
-
+file:///Users/ilanmoscovitz/ds/metis/metisgh/prework/ThinkStats2/ch3_image.png
