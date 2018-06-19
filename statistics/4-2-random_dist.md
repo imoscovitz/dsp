@@ -2,3 +2,4 @@
 
 
 ![Pmf](https://github.com/imoscovitz/dsp/blob/master/statistics/Pmf.png "Pmf") 
+![Cdf](https://github.com/imoscovitz/dsp/blob/master/statistics/Cdf.png "Cdf")
