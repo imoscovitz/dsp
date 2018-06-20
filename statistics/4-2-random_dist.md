@@ -15,4 +15,4 @@ thinkplot.Config(xlabel='Value', ylabel='PMF')
 ![Pmf](https://github.com/imoscovitz/dsp/blob/master/statistics/Pmf.png "Pmf")   
 ![Cdf](https://github.com/imoscovitz/dsp/blob/master/statistics/Cdf.png "Cdf")
 
-Yup! Looks pretty random! The pmf looks like a random distribution, and the cdf looks linnear.
+Yup! Looks pretty random! The pmf looks like a uniform distribution, and the cdf looks linnear, indicating a uniform distribution.
