@@ -91,6 +91,10 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 | I   |  0  |1/300|
 | ~I  |1/125|.9887|
 
+| Command | Description |
+| --- | --- |
+| git status | List all new or modified files |
+| git diff | Show file differences that haven't been staged |
 
 ---
 
