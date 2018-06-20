@@ -2,5 +2,5 @@
 
 ![actual_biased](https://github.com/imoscovitz/dsp/blob/master/statistics/actualbiased.png) 
 
-Actual mean: 1.024 
+Actual mean: 1.024    
 Biased mean: 2.403
