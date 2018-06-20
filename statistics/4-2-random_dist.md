@@ -12,7 +12,7 @@ thinkplot.Config(xlabel='Value', ylabel='PMF')
 #thinkplot.Config(xlabel='Value', ylabel='CDF')
 ```
 
-![Pmf](https://github.com/imoscovitz/dsp/blob/master/statistics/Pmf.png "Pmf") 
+![Pmf](https://github.com/imoscovitz/dsp/blob/master/statistics/Pmf.png "Pmf")   
 ![Cdf](https://github.com/imoscovitz/dsp/blob/master/statistics/Cdf.png "Cdf")
 
 Yup! Looks pretty random! The pmf looks like a random distribution, and the cdf looks linnear.
