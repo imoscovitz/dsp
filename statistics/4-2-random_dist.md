@@ -7,12 +7,15 @@ cdf = thinkstats2.Cdf(nums, label='cdf')
 
 thinkplot.Pmf(pmf, linewidth = 0.1)
 thinkplot.Config(xlabel='Value', ylabel='PMF')
-
-#thinkplot.Cdf(cdf, linewidth=1)
-#thinkplot.Config(xlabel='Value', ylabel='CDF')
 ```
 
 ![Pmf](https://github.com/imoscovitz/dsp/blob/master/statistics/Pmf.png "Pmf")   
+
+```
+thinkplot.Cdf(cdf, linewidth=1)
+thinkplot.Config(xlabel='Value', ylabel='CDF')
+```
+
 ![Cdf](https://github.com/imoscovitz/dsp/blob/master/statistics/Cdf.png "Cdf")
 
 Yup! Looks pretty random! The pmf looks like a uniform distribution, and the cdf looks linnear, indicating a uniform distribution.
