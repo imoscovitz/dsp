@@ -13,5 +13,5 @@ log_sample2 = InterpolateSample(income_df, log_upper=7.0)
 sample2 = np.power(10, log_sample2)
 Skewness(sample2), PearsonMedianSkewness(sample2)
 ```
-(11.603690267537793, 0.39156450927742087) 
+(11.603690267537793, 0.39156450927742087)    
 Skewness more than doubled, and Pearson fell. It makes sense that skewness would rise, though it seems a little counterintuitive than Pearson would fall. Unsure whether or not I messed something up, or whether it might have something to do with raising the upper range but only having sample values up to the old upper.
