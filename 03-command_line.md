@@ -20,16 +20,16 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-pwd: show current directory path 
-mkdir <name(s)>: create a directory 
-rmdir <name(s)>: delete a directory 
-touch <name(s)>: create a file (http://www.linfo.org/touch.html) 
-rm <name(s)>: delete a file 
-mv -i <oldname> <newname>: move a file 
-ls -a (all files), or ls -ld .*? (only hidden): output hidden files 
-cp -i <file> <newpath/newfile>: copy a file 
-cd <dir>: change current directory 
-cat <name>: output text file  
+pwd: show current directory path   
+mkdir <name(s)>: create a directory   
+rmdir <name(s)>: delete a directory   
+touch <name(s)>: create a file (http://www.linfo.org/touch.html)  
+rm <name(s)>: delete a file  
+mv -i <oldname> <newname>: move a file  
+ls -a (all files), or ls -ld .*? (only hidden): output hidden files  
+cp -i <file> <newpath/newfile>: copy a file  
+cd <dir>: change current directory  
+cat <name>: output text file   
 
 
 
