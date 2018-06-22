@@ -25,7 +25,7 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 `rmdir <name(s)>` delete a directory   
 `touch <name(s)>` create a file (http://www.linfo.org/touch.html)  
 `rm <name(s)>` delete a file  
-`mv -i <oldname> <newname>` move a file  
+`mv -i <oldname> <newname or path>` move a file  
 `ls -a` (all files) or `ls -ld` (only hidden): output hidden files  
 `cp -i <file> <newpath/newfile>` copy a file  
 `cd <dir>` change current directory  
