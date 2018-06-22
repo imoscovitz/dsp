@@ -27,7 +27,7 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 `rm <name(s)>` delete a file  
 `mv -i <oldname> <newname or path>` move one or more files to new location, or rename a file  
 `ls -a` (all files) or `ls -ld` (only hidden): output hidden files  
-`cp -i <file> <newpath/newfile>` copy a file  
+`cp -i <file> <newpath/newfile or newpath/>` copy one or more files  
 `cd <dir>` change current directory  
 `cat <name>` output text file   
 
