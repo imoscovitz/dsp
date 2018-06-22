@@ -88,12 +88,11 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 
 p(I) = 1/300
 p(F) = 1/125
-p(T) = p(I) + p(F) = 1/300 + 1/125
+p(T) = p(IvF) = p(I) + p(F) = 1/300 + 1/125
 
-\frac{n!}{k!(n-k)!}
-
-p(I|T) = P(I)p(T|I)
-
+p(I|T) = P(I)p(T|I) / p(T)
+       = 1/300*1 / (1/300 + 1/125)
+       = 29.4%
 
 ---
 
