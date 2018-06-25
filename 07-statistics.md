@@ -103,11 +103,11 @@ p(I|T) = P(I)p(T|I) / p(T)
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
-Both are methods of inferring generalizations about a population from a sample.
+Both are inferrential methods for making valid generalizations
 
-Frequentism is only concerned with the probability of a repeatable event. Don't use prior probabilities
-
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+But they view probability differently and proceed to draw generalizations differently. Frequentist probability is about the frequency of a repeatable event occurring. You collect data from sample populations (or, use known frequencies-- ex. a coin toss), from which you derive parameters, compare models, and draw inferences about a general population. But you don't attach weight to unmeasured hypotheses like, for instance, unrepeatable or otherwise unmeasurable events. Instead, you represent the uncertainty of your parameter estimates with things like p-values.  
+ 
+Bayesian statistics is comfortable making assumptions about unknown probabilistic values because it treats all uncertainty probabilistically, not just observed frequenices. It admits subjective assumptions about the likelihood of and/or confidence in related events and/or beliefs -- especially prior beliefs -- and then move deductively to calculate the probability of what we want to know. You can get more precise estimates than a frequentist would allow, and you can represent a broader scope of phenomena, but of course accuracy now relies in part on the accuracy of (sometimes subjective) assumptions.
 
 ---
 
